@@ -10,5 +10,6 @@ namespace webapicore.Model.DataContext
 
         }
         public DbSet<User>? users { get; set; } 
+        public DbSet<Employee> employees { get; set; }
     }
 }
